@@ -1,0 +1,15 @@
+# devA portA -- devB portB
+core1 ge-0/0/20 -- core2 ge-0/0/12
+core1 ge-0/0/22 -- edge1 ge-0/0/3
+core2 ge-0/0/4 -- edge1 ge-0/0/13
+edge1 ge-0/0/17 -- isp1 ge-0/0/16
+core1 ge-0/0/16 -- core2 ge-0/0/9
+core1 ge-0/0/0 -- core2 ge-0/0/14
+core1 ge-0/0/1 -- acc1 ge-0/0/14
+core1 ge-0/0/13 -- acc1 ge-0/0/17
+core1 ge-0/0/18 -- acc2 ge-0/0/4
+core1 ge-0/0/2 -- acc2 ge-0/0/20
+core2 ge-0/0/7 -- acc1 ge-0/0/1
+core2 ge-0/0/13 -- acc1 ge-0/0/3
+core2 ge-0/0/20 -- acc2 ge-0/0/21
+core2 ge-0/0/6 -- acc2 ge-0/0/12

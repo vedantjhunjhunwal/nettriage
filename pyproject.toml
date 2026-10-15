@@ -1,0 +1,9 @@
+[project]
+name = "nettriage"
+version = "0.1.0"
+description = "TAC-style fault triage for Junos networks: configs + packet captures"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[project.scripts]
+nettriage = "nettriage.__main__:main"

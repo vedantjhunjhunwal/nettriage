@@ -1,0 +1,63 @@
+{
+  "config": {
+    "labs": 930,
+    "fault_classes": 21,
+    "healthy_false_positive_labs": 0,
+    "healthy": 100,
+    "single_exact": 630,
+    "single": 630,
+    "double_exact": 200,
+    "double": 200,
+    "symptoms_correlated": 486,
+    "per_class": {
+      "bgp_local_address": "30/30",
+      "bgp_neighbor_missing": "30/30",
+      "bgp_peer_as": "30/30",
+      "dup_ip": "30/30",
+      "dup_router_id": "30/30",
+      "l2_mode": "30/30",
+      "lacp_both_passive": "30/30",
+      "lacp_member": "30/30",
+      "lacp_mode": "30/30",
+      "loopback_not_in_igp": "30/30",
+      "mtu": "30/30",
+      "ospf_area": "30/30",
+      "ospf_missing": "30/30",
+      "ospf_nettype": "30/30",
+      "ospf_passive": "30/30",
+      "ospf_timers": "30/30",
+      "stp_root": "30/30",
+      "subnet": "30/30",
+      "trunk_vlan": "30/30",
+      "vrrp_group": "30/30",
+      "vrrp_vip": "30/30"
+    },
+    "median_ms": 2.86,
+    "p95_ms": 4.76,
+    "failures": []
+  },
+  "captures": {
+    "labs": 340,
+    "fault_classes": 8,
+    "healthy_false_positive_labs": 0,
+    "healthy": 100,
+    "single_exact": 240,
+    "single": 240,
+    "double_exact": 0,
+    "double": 0,
+    "symptoms_correlated": 0,
+    "per_class": {
+      "arp_dup": "30/30",
+      "bgp_bad_peer_as": "30/30",
+      "bgp_refused": "30/30",
+      "dhcp_no_offer": "30/30",
+      "frag_needed": "30/30",
+      "ospf_hello": "30/30",
+      "pmtu_blackhole": "30/30",
+      "tcp_loss": "30/30"
+    },
+    "median_ms": 0.66,
+    "p95_ms": 1.24,
+    "failures": []
+  }
+}
